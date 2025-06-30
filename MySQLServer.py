@@ -4,8 +4,8 @@ from mysql.connector import Error
 try:
     connection = mysql.connector.connect(
         host="localhost",
-        user="root",  # Replace with your MySQL username
-        password="yourpassword"  # Replace with your MySQL password
+        user="root",  
+        password="Go1more@"  
     )
     if connection.is_connected():
         cursor = connection.cursor()
